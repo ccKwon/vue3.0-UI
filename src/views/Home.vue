@@ -6,8 +6,8 @@
       <h1>雨UI</h1>
       <h2>UI框架</h2>
       <p class="actions">
-        <a>Github</a>
-        <a>开始</a>
+        <a href="https://github.com">Github</a>
+        <router-link to="/doc">开始</router-link>
       </p>
     </div>
   </div>
