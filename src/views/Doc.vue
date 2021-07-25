@@ -1,8 +1,8 @@
 <template>
   <div>
+
+<div class="layout">
     <Topnav/>
-
-
     <div class="content">
       <aside v-if="menuVisible">
           <h2>组件列表</h2>
@@ -25,6 +25,9 @@
           <router-view></router-view>
       </main>
     </div>
+</div>
+
+
   </div>
 </template>
 
